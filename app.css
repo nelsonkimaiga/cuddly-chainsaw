@@ -1,0 +1,17 @@
+.sendy {
+            animation-name: diamondMoves;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            transform-origin: 50% 50%;
+        }
+        @keyframes diamondMoves {
+            0%   { transform: translate(0, 0); }
+            20%  { transform: translate(0, -200px); }
+            30%  { transform: translate(0, 0); }
+            40%  { transform: translate(0, 200px); }
+            50%  { transform: translate(0, 0); }
+            60%  { transform: translate(-200px, 0); }
+            70%  { transform: translate(0, 0); }
+            80%  { transform: translate(200px, 0); }
+            100% { transform: translate(0, 0); }
+        }
