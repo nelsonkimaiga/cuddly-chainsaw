@@ -1,0 +1,31 @@
+
+.sendy{
+    height: 50%;
+    width: 50%;
+animation-direction: normal;
+animation-name: movesendy;
+animation-iteration-count: infinite;
+animation-duration:3s;
+-webkit-animation-name:movesendy; /* Prefix for Safari and Chrome */
+-webkit-animation-duration:3s;
+-webkit-animation-direction:normal;
+-webkit-animation-iteration-count:infinite;
+}
+
+@keyframes movesendy
+{
+    0% {transform:translate(0px) rotate(90deg);
+        animation-timing-function:ease-in-out;}
+    
+ 100% {transform:translate(400px) rotate(90deg);
+       animation-timing-function:ease-in-out;}
+}
+
+@-webkit-keyframes movesendy /* Prefix for Safari and Chrome */
+{
+ 0% {-webkit-transform:translate(0px) rotate(90deg);
+    -webkit-animation-timing-function:ease-in-out;}
+  
+ 100% {-webkit-transform:translate(400px) rotate(90deg);
+       -webkit-animation-timing-function:ease-in-out;}
+}

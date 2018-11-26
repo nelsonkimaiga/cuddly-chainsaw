@@ -3,6 +3,8 @@
     width: 50%;
 }
 
+/*animations*/
+
 .sendy {
   animation: MoveUpDown 1s linear infinite;
   position: absolute;
@@ -17,4 +19,7 @@
   100% {
     bottom: 100px;
   }
+}
+path#sendy.path{
+    background-color: red;
 }
