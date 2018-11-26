@@ -1,15 +1,24 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+body{
+  background-color: #2c3840;
+}
 .sendy{
-    height: 50%;
-    width: 50%;
-animation-direction: normal;
-animation-name: movesendy;
-animation-iteration-count: infinite;
-animation-duration:3s;
--webkit-animation-name:movesendy; /* Prefix for Safari and Chrome */
--webkit-animation-duration:3s;
--webkit-animation-direction:normal;
--webkit-animation-iteration-count:infinite;
+  height: 50%;
+  width: 50%;
+  animation-direction: normal;
+  animation-name: movesendy;
+  animation-iteration-count: infinite;
+  animation-duration:3s;
+  -webkit-animation-name:movesendy; /* Prefix for Safari and Chrome */
+  -webkit-animation-duration:3s;
+  -webkit-animation-direction:normal;
+  -webkit-animation-iteration-count:infinite;
 }
 
 @keyframes movesendy
@@ -21,7 +30,7 @@ animation-duration:3s;
        animation-timing-function:ease-in-out;}
 }
 
-@-webkit-keyframes movesendy /* Prefix for Safari and Chrome */
+@-webkit-keyframes movesendy 
 {
  0% {-webkit-transform:translate(0px) rotate(90deg);
     -webkit-animation-timing-function:ease-in-out;}
